@@ -1,23 +1,69 @@
 body{
-    background-image: url(img/background-image-paysage.jpg);
-    /* background-image: url(img/shooting-photo.png); */
-    background-repeat: no-repeat;
+    
+
+}
+
+.background-image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 0;
+    filter: grayscale(0.7) contrast(120%);
+
+    display: block;
+    background-image: url(img/background-feet-paysage.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homepage-text{
+    position:relative;
+	z-index:2;
 }
 
 h1{
+    display: block;
     font-family: 'Amatic SC', 'cursive';
     font-size: 100px;
     font-weight: bold;
-    text-align: right;
-    margin: 100px 300px;
     color: rgb(240, 203, 39);
+    text-align: center;
+}
+
+.webdev-appears{
+    display: none;
+}
+/* 
+.name-disappears{
+    display: block;
+}
+
+h1:hover .webdev-appears{
+    display: block;
+    color: rgb(58, 184, 106);
+    margin-left: auto;
+    margin-right: auto;
+} h1:hover .name-disappears{
+    display: none;
+} */
+
+.name-title{
+    display: block;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 38%;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+
 }
 
 button{
     height: 50px;
     width: 150px;
-    background-color: rgba(244, 246, 249, 0.4);
+    background-color: rgba(244, 246, 249, 0.5);
     border: none;
     border-radius: 5px;
     font-size: 20px;
@@ -25,12 +71,29 @@ button{
     text-decoration: none;
 }
 
-button:hover{
-    background-color: rgba(240, 203, 39, 0.6) ;
-    /* height: 70px;
-    width: 180px; */
-    /* border: 1px rgb(204, 201, 201, 0.5) solid; */
-}
+.button-effect {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 150ms ease-in-out;
+  }
+  .button-effect:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: rgba(238, 210, 87, 0.7);
+    z-index: -1;
+    transition: width 80ms ease-in-out;
+  }
+  .button-effect:hover:after {
+    width: 110%;
+  }
 
 .alone-button{
     display: flex;
@@ -45,8 +108,29 @@ button:hover{
 .container-buttons{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 230px;
+    margin-top: 150px;
 }
 
+
+
+/* CONTACT PAGE */
+.contactpage{
+    position:relative;
+}
+
+.background-contact{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 0;
+    filter: grayscale(0.7) contrast(120%);
+
+    display: block;
+    background-image: url(img/shooting-photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
