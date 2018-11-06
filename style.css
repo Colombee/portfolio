@@ -1,0 +1,52 @@
+body{
+    background-image: url(img/background-image-paysage.jpg);
+    /* background-image: url(img/shooting-photo.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Amatic SC', 'cursive';
+    font-size: 100px;
+    font-weight: bold;
+    text-align: right;
+    margin: 100px 300px;
+    color: rgb(240, 203, 39);
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    background-color: rgba(244, 246, 249, 0.4);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgba(240, 203, 39, 0.6) ;
+    /* height: 70px;
+    width: 180px; */
+    /* border: 1px rgb(204, 201, 201, 0.5) solid; */
+}
+
+.alone-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    width: 300px;
+    margin: auto auto;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 230px;
+}
+
+
+
