@@ -53,6 +53,8 @@ h1{
 h2{
     font-family: 'Amatic SC', 'cursive';
     font-size: 70px;
+    color: rgb(245, 168, 3);
+    color: black;
 }
 
 div h2{
@@ -230,20 +232,27 @@ button{
         }
 
         .div-row div{
-            background-color: rgb(144, 233, 196);
+            background-color: rgba(255, 255, 255, 0);
             margin: 11px;
             height: 130px;
             width: 20%;
         }
 
 .projet{
+    border: 1px solid rgb(180, 179, 176);
+    border-radius: 4px;
+    background-image: url(img/portfolio/coming.jpg);
+    background-size: cover;
+    filter: grayscale(1) brightness(0.5);
 
 } .projet:hover{
-    filter: grayscale(1);
+    filter: initial;
 }
 
     .projet1{
-        background-image: 
+        background-image: url(img/portfolio/foret-miniature.png);
+        background-size: cover;
+        height:100%;
     }
 
     .projet1:hover{
