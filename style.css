@@ -44,8 +44,8 @@ h1{
     font-family: 'Amatic SC', 'cursive';
     font-size: 100px;
     font-weight: bold;
-    color: rgb(240, 203, 39);
-    color: rgb(185, 153, 8);
+    color: rgb(240, 193, 39);
+    /* color: rgb(185, 153, 8); */
     text-align: center;
     margin: 0 auto;
 }
@@ -53,8 +53,7 @@ h1{
 h2{
     font-family: 'Amatic SC', 'cursive';
     font-size: 70px;
-    color: rgb(245, 168, 3);
-    color: black;
+    color: rgb(240, 193, 39);
 }
 
 div h2{
@@ -95,6 +94,11 @@ button{
     text-transform: uppercase;
     text-decoration: none;
 }
+
+/* .button:hover{
+    border: solid 3px rgb(240, 193, 39);
+    background-color: rgba(253, 240, 181, 0.5);;
+} */
 
 .button-effect {
     position: relative;
@@ -255,8 +259,11 @@ button{
         height:100%;
     }
 
-    .projet1:hover{
-        
+    .projet2{
+        background-image: url(img/portfolio/allezcine2.png);
+        background-size: cover;
+        height:100%;
     }
+
 
 
