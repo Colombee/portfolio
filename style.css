@@ -2,11 +2,16 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    caret-color: red;
 }
 
 body{
     margin: 0;
 
+}
+
+.div-row a{
+    width: 100%;
 }
 
 .background-image{
@@ -28,10 +33,10 @@ body{
     top: 20px;
     left: 30px;
     /* border:1px solid rgb(223, 222, 222); */
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 50%;
 } .logo-menu-div:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .homepage-text{
@@ -54,6 +59,7 @@ h2{
     font-family: 'Amatic SC', 'cursive';
     font-size: 70px;
     color: rgb(240, 193, 39);
+    bottom: 0;
 }
 
 div h2{
@@ -95,12 +101,12 @@ button{
     text-decoration: none;
 }
 
-/* .button:hover{
+.button:hover{
     border: solid 3px rgb(240, 193, 39);
     background-color: rgba(253, 240, 181, 0.5);;
-} */
+}
 
-.button-effect {
+/* .button-effect {
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -122,7 +128,7 @@ button{
   }
   .button-effect:hover:after {
     width: 110%;
-  }
+  } */
 
 .alone-button{
     display: flex;
@@ -206,7 +212,7 @@ button{
 }
 .background-image-portfoliopage{
     background-image: url(img/bckgrnd-img/shooting-photo.png);
-    filter: grayscale(0.7) opacity(20%);
+    filter: grayscale(0.7) opacity(15%);
     
     position: absolute;
     top: 0px;
@@ -243,15 +249,17 @@ button{
         }
 
 .projet{
-    border: 1px solid rgb(180, 179, 176);
+    border: 2px solid transparent;
     border-radius: 4px;
     background-image: url(img/portfolio/coming.jpg);
     background-size: cover;
-    filter: grayscale(1) brightness(0.5);
-
+    filter: grayscale(0.7);
 } .projet:hover{
     filter: initial;
+    filter: brightness(1.05);
+    border: 2px solid rgba(219, 145, 7, 0.808);
 }
+
 
     .projet1{
         background-image: url(img/portfolio/foret-miniature.png);
