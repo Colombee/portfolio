@@ -101,8 +101,8 @@ button{
 }
 
 .button:hover{
-    border: solid 3px rgb(240, 193, 39);
-    background-color: rgba(253, 240, 181, 0.5);;
+    border: solid 2px rgb(240, 193, 39);
+    /* background-color: rgba(253, 240, 181, 0.5);; */
 }
 
 /* .button-effect {
