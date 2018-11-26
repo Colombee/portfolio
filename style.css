@@ -15,12 +15,19 @@ body{
     position: absolute;
     top: 0px;
     z-index: 0;
-    filter: grayscale(0.6) contrast(130%);
+    filter: grayscale(0.5) contrast(100%);
     height: 100%;
     width: 100%;
     background-image: url("./img/bckgrnd-img/background-simple2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo-menu-div {
@@ -29,26 +36,74 @@ body{
     width: 5em;
     top: 20px;
     left: 30px;
-    /* border:1px solid rgb(223, 222, 222); */
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 50%;
 } .logo-menu-div:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* icons menu */
+.container-icons{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 3px;
+    padding: 5px;
+    float: right;
+    text-decoration: none;
+
+}
+
+.container-icons p{
+    /* text-transform: uppercase; */
+    font-family: 'Dancing Script';
+    font-family: 'Quicksand';
+    font-size: 22px;
+    /* letter-spacing: 10px; */
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color: rgb(240, 193, 39);
+}
+
+a .active-navbar-link{
+    color: rgb(182, 171, 130);
+    color: rgb(216, 180, 73);
+    /* writing-mode: vertical-rl;
+    text-orientation: mixed; */
+}
+
+.fas{
+    margin: 1px 10px;
+    color:;
+}
+
+
+/* HOMEPAGE CONTENT */
 
 .homepage-text{
     position:relative;
-	z-index:2;
+    z-index:2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 h1{
     display: block;
     font-family: 'Amatic SC', 'cursive';
-    /* font-family: 'Dancing Script', 'cursive'; */
     font-size: 100px;
     font-weight: bold;
     color: rgb(240, 193, 39);
-    /* color: rgb(185, 153, 8); */
     text-align: center;
     margin: 0 auto;
 }
@@ -57,7 +112,6 @@ h2{
     font-family: 'Amatic SC', 'cursive';
     font-size: 70px;
     color: rgb(240, 193, 39);
-    /* color: rgb(236, 130, 81); */
     bottom: 0;
 }
 
@@ -85,9 +139,11 @@ h1:hover .webdev-appears{
 
 .name-title{
     margin: 0 auto ;
-    margin-top: 100px;
-    width: 300px;
+    margin-top: 150px;
+    width: 350px;
 }
+
+/* button menu */
 
 button{
     height: 50px;
@@ -104,30 +160,6 @@ button{
     border: solid 2px rgb(240, 193, 39);
     /* background-color: rgba(253, 240, 181, 0.5);; */
 }
-
-/* .button-effect {
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    transition: color 150ms ease-in-out;
-  }
-  .button-effect:after {
-    content: '';
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    width: 0;
-    height: 100%;
-    background: rgba(238, 210, 87, 0.7);
-    z-index: -1;
-    transition: width 80ms ease-in-out;
-  }
-  .button-effect:hover:after {
-    width: 110%;
-  } */
 
 .alone-button{
     display: flex;
@@ -171,6 +203,10 @@ button{
 
 
 /* PROFILE PAGE */
+.flexbox{
+    display: flex;
+    height: 100%;
+}
 
 .profilepage-text{
     position: absolute;
@@ -178,23 +214,6 @@ button{
     background-color: rgba(247, 245, 244, 0.9);
     border-radius: 5px;
 }
-
-.background-profile{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 0;
-    /* filter: grayscale(0.7) contrast(120%); */
-    filter: contrast(120%) brightness(120%);
-
-    display: block;
-    background-image: url(img/bckgrnd-img/shooting-photo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 
 /* PORTFOLIO PAGE */
 .flexbox{
@@ -215,7 +234,6 @@ button{
     width: 100%;
     background-image: url(img/bckgrnd-img/background-plant22.jpg);
     background-size: cover;
-    
 }
 
     .div-title{
@@ -273,8 +291,8 @@ button{
         background-image: url(img/portfolio/ressourcerie-miniature.png);
     }
 
-    .projet .projet9, .projet .projet10, .projet .projet11, .projet .projet12{
-        /* visibility: hidden; */
+    .projet .projet5, .projet .projet6, .projet .projet7, .projet .projet8, .projet .projet9, .projet .projet10, .projet .projet11, .projet .projet12{
+        visibility: hidden;
         background-image: url();
     }
 
