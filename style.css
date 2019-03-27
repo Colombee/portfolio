@@ -34,13 +34,22 @@ body{
     position: fixed; 
     height: 5em;
     width: 5em;
-    top: 20px;
-    left: 30px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-} .logo-menu-div:hover {
-    background-color: rgba(0, 0, 0, 0.4);
+    top: 30px;
+    left: 50px;
 }
+
+.logo-menu{
+    width: 80%;
+}
+
+.stroke{
+    padding: 0px 10px;
+}
+
+.hover-effect:hover{
+    border-bottom: 1px solid;
+}
+
 
 /* icons menu */
 .container-icons{
@@ -49,20 +58,21 @@ body{
     justify-content: space-around;
     width: 500px;
     margin: 20px auto;
+    margin-bottom: 1px;
     border-radius: 3px;
     padding: 5px;
     float: right;
     text-decoration: none;
-
 }
 
 .container-icons p{
-    /* text-transform: uppercase; */
     font-family: 'Dancing Script';
     font-family: 'Quicksand';
+    font-family: 'Montserrat';
     font-size: 22px;
     /* letter-spacing: 10px; */
     text-decoration: none;
+    margin-bottom: 10px;
 }
 
 a{
@@ -74,17 +84,18 @@ a:hover{
     color: rgb(240, 193, 39);
 }
 
-a .active-navbar-link{
-    color: rgb(182, 171, 130);
-    color: rgb(216, 180, 73);
-    /* writing-mode: vertical-rl;
-    text-orientation: mixed; */
+a .active-navbar-link:hover{
+    border-style: hidden;
+    color: rgb(187, 186, 186);
+
 }
 
-.fas{
-    margin: 1px 10px;
-    color:;
+a .active-navbar-link{
+    /* color: rgb(182, 171, 130);
+    color: rgb(184, 161, 94); */
+    color: rgb(187, 186, 186);
 }
+
 
 
 /* HOMEPAGE CONTENT */
@@ -119,7 +130,7 @@ div h2{
     text-align: right;
     align-items: right;
 }
-
+/* 
 .webdev-appears{
     display: none;
 }
@@ -135,12 +146,23 @@ h1:hover .webdev-appears{
     text-align: center;
 } h1:hover .name-disappears{
     display: none;
-}
+} */
 
 .name-title{
     margin: 0 auto ;
-    margin-top: 150px;
-    width: 350px;
+    margin-top: 120px;
+    width: 400px;
+}
+
+.name-title p{
+    float: right;
+    font-family: 'Dancing Script';
+    font-family: 'Montserrat';
+    font-family: 'Quicksand';
+    font-size: 40px;
+    color: rgb(131, 125, 103);
+    margin: 20px -20px 0px 20px;
+    padding: 0;
 }
 
 /* button menu */
@@ -158,7 +180,6 @@ button{
 
 .button:hover{
     border: solid 2px rgb(240, 193, 39);
-    /* background-color: rgba(253, 240, 181, 0.5);; */
 }
 
 .alone-button{
@@ -295,5 +316,3 @@ button{
         visibility: hidden;
         background-image: url();
     }
-
-
