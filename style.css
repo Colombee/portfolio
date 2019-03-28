@@ -130,23 +130,6 @@ div h2{
     text-align: right;
     align-items: right;
 }
-/* 
-.webdev-appears{
-    display: none;
-}
-
-.name-disappears{
-    display: block;
-}
-
-h1:hover .webdev-appears{
-    display: block;
-    color: rgb(167, 186, 199);
-    margin: 0 auto;
-    text-align: center;
-} h1:hover .name-disappears{
-    display: none;
-} */
 
 .name-title{
     margin: 0 auto ;
@@ -160,7 +143,7 @@ h1:hover .webdev-appears{
     font-family: 'Montserrat';
     font-family: 'Quicksand';
     font-size: 40px;
-    color: rgb(131, 125, 103);
+    color: black; 
     margin: 20px -20px 0px 20px;
     padding: 0;
 }
@@ -224,10 +207,10 @@ button{
 
 
 /* PROFILE PAGE */
-.flexbox{
+/* .flexbox{
     display: flex;
     height: 100%;
-}
+} */
 
 .profilepage-text{
     position: absolute;
@@ -237,10 +220,10 @@ button{
 }
 
 /* PORTFOLIO PAGE */
-.flexbox{
+/* .flexbox{
     display: flex;
     height: 100%;
-}
+} */
 
 .portfoliopage{
     
