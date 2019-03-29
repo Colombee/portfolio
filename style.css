@@ -40,6 +40,7 @@ body{
 
 .logo-menu{
     width: 80%;
+    z-index: 22;
 }
 
 .stroke{
@@ -207,27 +208,43 @@ button{
 
 
 /* PROFILE PAGE */
-/* .flexbox{
+.flexbox{
     display: flex;
     height: 100%;
-} */
+}
+
+.littleDefinition{
+    font-size: 44px;
+    margin-left: 100px;
+    font-family: 'Amatic SC', 'cursive';
+}
+
+.slogan{
+    color: rgb(235, 184, 18);
+}
+
+p{
+    font-family: 'Quicksand';
+}
 
 .profilepage-text{
     position: absolute;
     z-index: 2;
-    background-color: rgba(247, 245, 244, 0.9);
+    /* background-color: rgba(247, 245, 244, 0.3); */
     border-radius: 5px;
+    margin-top: 0;
+    margin: 0 50px 50px 50px;
+    padding: 1%;
 }
 
 /* PORTFOLIO PAGE */
-/* .flexbox{
-    display: flex;
-    height: 100%;
-} */
 
 .portfoliopage{
     
 }
+
+
+/* PAGES */
 
 .background-image-pages{
     filter: grayscale(0.6) contrast(130%);
@@ -255,7 +272,7 @@ button{
         height: 92%;
         width: 65%;
         z-index: 1;
-        margin: 3%;
+        margin: 10%;
     }
 
         .div-row{
