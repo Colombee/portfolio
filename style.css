@@ -15,10 +15,11 @@ body{
     position: absolute;
     top: 0px;
     z-index: 0;
-    filter: grayscale(0.5) contrast(100%);
+    filter: grayscale(0.4) contrast(110%);
     height: 100%;
     width: 100%;
     background-image: url("./img/bckgrnd-img/background-simple2.jpg");
+    /* background-image: url("./img/bckgrnd-img/background-test2.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -28,6 +29,7 @@ body{
 .navbar{
     display: flex;
     justify-content: flex-end;
+    margin-right: 2%;
 }
 
 .logo-menu-div {
@@ -47,9 +49,9 @@ body{
     padding: 0px 10px;
 }
 
-.hover-effect:hover{
+/* .hover-effect:hover{
     border-bottom: 1px solid;
-}
+} */
 
 
 /* icons menu */
@@ -239,10 +241,6 @@ p{
 
 /* PORTFOLIO PAGE */
 
-.portfoliopage{
-    
-}
-
 
 /* PAGES */
 
@@ -259,7 +257,7 @@ p{
 
     .div-title{
     height: 100%;
-    width: 35%;
+    width: 40%;
     background-color: transparent;
     z-index: 1;
     }
@@ -269,8 +267,8 @@ p{
     }
 
     .div-content{
-        height: 92%;
-        width: 65%;
+        height: 100%;
+        width: 60%;
         z-index: 1;
         margin: 10%;
     }
@@ -278,13 +276,15 @@ p{
         .div-row{
             display: flex;
             justify-content: space-evenly;
+            
         }
 
         .div-row div{
             background-color: rgba(255, 255, 255, 0);
-            margin: 11px;
-            height: 150px;
+            margin: 10px;
+            height: 130px;
             width: 20%;
+            
         }
 
 .projet{
