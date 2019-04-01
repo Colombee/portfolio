@@ -240,7 +240,9 @@ p{
 }
 
 /* PORTFOLIO PAGE */
+.portfoliopage-text{
 
+}
 
 /* PAGES */
 
@@ -290,7 +292,7 @@ p{
 .projet{
     border: 2px solid transparent;
     border-radius: 20px;
-    background-image: url(img/portfolio/coming.jpg);
+    background-image: url(img/portfolio/coming-soon.png);
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(1) ;
